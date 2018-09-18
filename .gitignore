@@ -36,8 +36,12 @@ httpd.parse.errors
 # Exclude ALL DLLs? (
 # *.dll
 
-/example/GapSourceDictionary.xml
-/tests/MobileSpecUnitTests/GapSourceDictionary.xml
+*.DS_Store
+
+test/MobileSpecUnitTests/CordovaSourceDictionary.xml
+example/CordovaSourceDictionary.xml
+templates/standalone/CordovaSourceDictionary.xml
+
 
 
 
